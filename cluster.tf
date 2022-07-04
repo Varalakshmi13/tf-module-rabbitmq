@@ -40,7 +40,7 @@ resource "aws_mq_broker" "rabbitmq" {
 
   user {
     username = "roboshop"
-    password = "RoboShop123"
+    password = "RoboShop1234"
   }
 }
 
