@@ -54,3 +54,8 @@ resource "aws_mq_broker" "rabbitmq" {
 //  data = ""
 //  authentication_strategy = "simple"
 //}
+
+
+output "rabbitmq" {
+  value = "aws_mq_broker.rabbitmq"
+}
