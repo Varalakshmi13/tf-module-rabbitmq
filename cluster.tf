@@ -46,11 +46,11 @@ resource "aws_mq_broker" "rabbitmq" {
 }
 
 
-resource "aws_mq_configuration" "config-main" {
-  description = "roboshop-${var.ENV}"
-  name = "roboshop-${var.ENV}"
-  engine_type = "RabbitMQ"
-  engine_version = "3.9.13"
-  data = ""
-  authentication_strategy = "simple"
-}
+//resource "aws_mq_configuration" "config-main" {
+//  description = "roboshop-${var.ENV}"
+//  name = "roboshop-${var.ENV}"
+//  engine_type = "RabbitMQ"
+//  engine_version = "3.9.13"
+//  data = ""
+//  authentication_strategy = "simple"
+//}
